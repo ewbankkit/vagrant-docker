@@ -1,5 +1,5 @@
 # vagrant-docker
-Running Docker 1.8 in a Vagrant Ubuntu 14.04 box.
+Running Docker 1.8.1 in a Vagrant Ubuntu 14.04 box.
 ```
 $ vagrant up
 $ vagrant ssh

@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
     e.vm.hostname = "docker-in-a-box"
 
     e.vm.provider "virtualbox" do |vb|
-      vb.name = "mongodb-in-a-box"
+      vb.name = "docker-in-a-box"
       vb.customize ["modifyvm", :id, "--memory", "2048"]
       vb.customize ["modifyvm", :id, "--ioapic", "on"]
     end
