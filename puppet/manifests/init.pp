@@ -6,7 +6,7 @@
 # Install Docker Engine.
 ########################################
 class { 'docker':
-  version      => '1.8.1',
+  version      => '1.7.1',
   dns          => [
     '8.8.8.8'
   ],
